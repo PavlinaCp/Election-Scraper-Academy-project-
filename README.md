@@ -7,12 +7,12 @@ The script downloads data for a specified territorial unit and saves it as a CSV
 
 ## Installation
 1. Clone this repository:
-```bash
+bash
 git clone https://github.com/your_username/election-scraper.git
 cd election-scraper
 
 2. Install the required libraries:
-```bash
+bash
 pip install -r requirements.txt
 
 requirements.txt should contain:
@@ -22,7 +22,7 @@ lxml
 
 Usage
 Run the script from the command line with the territorial unit name and output CSV file:
-```bash
+bash
 python projekt_2.py "Praha" "praha_results.csv"
 
 Example Output:
