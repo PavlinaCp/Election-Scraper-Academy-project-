@@ -7,7 +7,7 @@ The script downloads data for a specified territorial unit and saves it as a CSV
 
 ## Installation
 1. Clone this repository:
-bash
+```bash
 git clone https://github.com/your_username/election-scraper.git
 cd election-scraper
 
