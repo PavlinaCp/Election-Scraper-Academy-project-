@@ -5,18 +5,6 @@ The script downloads data for a specified territorial unit and saves it as a CSV
 
 ---
 
-## Installation
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/PavlinaCp/election-scraper.git
-cd election-scraper
-
-Install the required libraries:
-pip install -r requirements.txt
-
-
 requirements.txt should contain:
 requests
 beautifulsoup4
@@ -39,3 +27,14 @@ registered – number of registered voters
 envelopes – number of envelopes cast
 valid – number of valid votes
 Party A/B/C – votes for each party
+
+## Installation
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/PavlinaCp/election-scraper.git
+cd election-scraper
+
+Install the required libraries:
+pip install -r requirements.txt
