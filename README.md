@@ -27,4 +27,15 @@ Run the script from the command line with the territorial unit name and output C
 python projekt_2.py "Praha" "praha_results.csv"
 
 Example Output:
-A sample output is attached.
+The CSV file will have a structure like this:
+
+code;location;registered;envelopes;valid;Party A;Party B;Party C
+101;Benešov;5000;4800;4700;1200;900;600
+102;Another Town;3200;3100;3000;800;700;400
+
+code – municipality code
+location – municipality name
+registered – number of registered voters
+envelopes – number of envelopes cast
+valid – number of valid votes
+Party A/B/C – votes for each party
