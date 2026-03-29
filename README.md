@@ -10,10 +10,6 @@ requests,
 beautifulsoup4,
 lxml
 
-## Usage:
-Run the script from the command line with the territorial unit name and output CSV file
-python projekt_2.py "Praha" "praha_results.csv"
-
 ## Installation
 
 1. Clone this repository:
@@ -24,6 +20,20 @@ cd election-scraper
 2. Install the required libraries:
 ```bash
 pip install -r requirements.txt
+```
+## Run the application
+Run the script from the command line with the territorial unit name and output CSV file.
+```bash
+python main.py "territorial_unit" "file_name.csv"
+```
+
+### Arguments
+- territorial_unit - name of municipality (e.g. "Praha")
+-  file_name.csv - output file name (must end with .csv)
+
+Example:
+```bash
+python main.py "Praha" "results.csv"
 ```
 
 ## Example Output:
