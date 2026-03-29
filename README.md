@@ -22,10 +22,17 @@ python projekt_2.py "Praha" "praha_results.csv"
 git clone https://github.com/PavlinaCp/election-scraper.git
 cd election-scraper
 ```
-
 2. Install the required libraries:
+3. 
+
+
 ```bash
 pip install -r requirements.txt
+```
+
+3. Run the application
+```bash
+python main.py
 ```
 
 ## Example Output:
@@ -34,7 +41,7 @@ The CSV file will have a structure like this:
 code;location;registered;envelopes;valid;Party A;Party B;Party C
 101;Benešov;5000;4800;4700;1200;900;600
 102;Another Town;3200;3100;3000;800;700;400
-```bash
+bash
 
 code – municipality code
 location – municipality name
