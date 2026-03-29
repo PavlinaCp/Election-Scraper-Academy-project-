@@ -10,7 +10,7 @@ requests,
 beautifulsoup4,
 lxml
 
-Usage:
+## Usage:
 Run the script from the command line with the territorial unit name and output CSV file
 python projekt_2.py "Praha" "praha_results.csv"
 
@@ -21,16 +21,20 @@ python projekt_2.py "Praha" "praha_results.csv"
 ```bash
 git clone https://github.com/PavlinaCp/election-scraper.git
 cd election-scraper
+```
 
-Install the required libraries:
+2. Install the required libraries:
+```bash
 pip install -r requirements.txt
+```
 
-Example Output:
+## Example Output:
 The CSV file will have a structure like this:
-
+```bash
 code;location;registered;envelopes;valid;Party A;Party B;Party C
 101;Benešov;5000;4800;4700;1200;900;600
 102;Another Town;3200;3100;3000;800;700;400
+```bash
 
 code – municipality code
 location – municipality name
