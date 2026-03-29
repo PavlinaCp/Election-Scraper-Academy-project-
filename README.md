@@ -17,19 +17,14 @@ python projekt_2.py "Praha" "praha_results.csv"
 ## Installation
 
 1. Clone this repository:
-
 ```bash
 git clone https://github.com/PavlinaCp/election-scraper.git
 cd election-scraper
 ```
 2. Install the required libraries:
-3. 
-
-
 ```bash
 pip install -r requirements.txt
 ```
-
 3. Run the application
 ```bash
 python main.py
