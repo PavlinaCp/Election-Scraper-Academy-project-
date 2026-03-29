@@ -25,10 +25,6 @@ cd election-scraper
 ```bash
 pip install -r requirements.txt
 ```
-3. Run the application:
-```bash
-python main.py
-```
 
 ## Example Output:
 The CSV file will have a structure like this:
