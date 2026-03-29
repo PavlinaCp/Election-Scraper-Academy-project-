@@ -36,7 +36,7 @@ The CSV file will have a structure like this:
 code;location;registered;envelopes;valid;Party A;Party B;Party C
 101;Benešov;5000;4800;4700;1200;900;600
 102;Another Town;3200;3100;3000;800;700;400
-bash
+```
 
 code – municipality code
 location – municipality name
